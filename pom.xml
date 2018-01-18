@@ -6,7 +6,7 @@
 
     <groupId>ru.revdaalex.sonar.php</groupId>
     <artifactId>sonar-php-mnd-plugin</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <packaging>sonar-plugin</packaging>
 
     <name>SonarQube PHP Check Magic Number Plugin</name>
@@ -44,9 +44,9 @@
                 <version>1.17</version>
                 <extensions>true</extensions>
                 <configuration>
-                    <pluginKey>php-mnd</pluginKey>
+                    <pluginKey>sonar-php-mnd-plugin</pluginKey>
                     <pluginName>PHP Check Magic Number</pluginName>
-                    <pluginClass>ru.revdaalex.sonar.php.checks.MagicNumberCheck</pluginClass>
+                    <pluginClass>org.sonar.samples.php.PHPMagicNumberPlugin</pluginClass>
                     <sonarLintSupported>true</sonarLintSupported>
                     <sonarQubeMinVersion>5.6</sonarQubeMinVersion> <!-- allow to depend on API 6.x but run on LTS -->
                     <basePlugin>php</basePlugin>

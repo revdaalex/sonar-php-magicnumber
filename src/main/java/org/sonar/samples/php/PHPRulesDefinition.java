@@ -1,8 +1,8 @@
-package ru.revdaalex.sonar.php;
+package org.sonar.samples.php;
 
 import com.google.common.collect.ImmutableList;
 import org.sonar.plugins.php.api.visitors.PHPCustomRulesDefinition;
-import ru.revdaalex.sonar.php.checks.MagicNumberCheck;
+import org.sonar.samples.php.checks.MagicNumberCheck;
 
 /**
  * Extension point to define a PHP rule repository.
@@ -14,7 +14,7 @@ public class PHPRulesDefinition extends PHPCustomRulesDefinition {
      */
     @Override
     public String repositoryName() {
-        return "Common PHP";
+        return "PHP Magic Number";
     }
 
     /**
@@ -22,7 +22,7 @@ public class PHPRulesDefinition extends PHPCustomRulesDefinition {
      */
     @Override
     public String repositoryKey() {
-        return "common-php";
+        return "mnd";
     }
 
     /**

@@ -1,4 +1,4 @@
-package ru.revdaalex.sonar.php.checks;
+package org.sonar.samples.php.checks;
 
 import org.sonar.check.Priority;
 import org.sonar.check.Rule;

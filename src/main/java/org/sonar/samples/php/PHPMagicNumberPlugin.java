@@ -1,4 +1,4 @@
-package ru.revdaalex.sonar.php;
+package org.sonar.samples.php;
 
 import org.sonar.api.Plugin;
 
