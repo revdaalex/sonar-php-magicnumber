@@ -1,0 +1,4 @@
+**/target/
+# IntelliJ configuration files
+**/.idea/
+**/*.iml
